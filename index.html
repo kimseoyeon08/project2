@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Environment</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="../layout4-main/layout 기초4강 결과물 (1)/css/font-awesome.min.css">
+        <script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.outer-menu-item').hover(function(){
+            $(this). find('.inner-menu').show();
+            },function(){
+                $(this).find('.inner-menu').hide();
+            });
+        });
+    </script>     
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <nav>
+                    <ul id="main-nav">
+                        <li class="outer-menu-item">
+                            <span class="menu-title">ENVIRONMENT</span>
+                            <ul class="inner-menu">
+                                <li class="inner-menu-item"><a href="en_sub1.html"> 토양 오염</a></li>
+                                <li class="inner-menu-item"><a href="#">해바라기</a></li>
+                                <li class="inner-menu-item"><a href="#">해바라기</a></li>
+                            </ul>                    
+                        </li>
+                        <li class="outer-menu-item">
+                            <span class="menu-title">ECOSYSTEM</span>
+                            <ul class="inner-menu">
+                                <li class="inner-menu-item"><a href="#">데이지</a></li>
+                                <li class="inner-menu-item"><a href="#">해바라기</a></li>
+                                <li class="inner-menu-item"><a href="#">해바라기</a></li>
+                            </ul>                    
+                        </li>
+                        <li class="outer-menu-item">
+                            <span class="menu-title">RESULT</span>
+                            <ul class="inner-menu">
+                                <li class="inner-menu-item"><a href="#">데이지</a></li>
+                                <li class="inner-menu-item"><a href="#">해바라기</a></li>
+                                <li class="inner-menu-item"><a href="#">해바라기</a></li>
+                            </ul>                    
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <section id="intro">
+                <div class="page-title">
+                    <h1>
+                        <a href="en_main1.html">ENVIRONMENT</a>
+                    </h1>
+                </div>
+            </section>
+            <section class="photoGallery">  
+                <div class="photo">
+                        <div class="titleBox">
+                                <h3>음식 및 음료사진 공모전</h3>
+                                <p>자연과 함께 조화로운 구도로 작품성이 뛰어난 사진을 공모합니다.</p>
+                                <a href="#" class="btn">사진공모전 바로가기</a>
+                            </div>
+                <ul>
+                    <li>
+                        <a href="#"><p class="img"><img src="img16/flower.jpg" width = 100px alt=""></p>
+                        <h3> photoGallery 01</h3>
+                       <div class="inner">
+                             <p>- 참가자 :  홍길동</p>
+                            <p>- 작품규격 : 500 * 700</p>
+                            <p class="date">- 제출일자: 2020.08.07</p>
+                        </div>
+                    </a></li>
+                    <li>
+                        <a href="#"><p class="img"><img src="img16/flower.jpg" width = 100px alt=""></p>
+                        <h3> photoGallery 02</h3>
+                        <div class="inner">
+                            <p>- 참가자 :  홍길동</p>
+                            <p>- 작품규격 : 500 * 700</p>
+                            <p class="date"> - 제출일자: 2020.08.10</p>
+                        </div>
+                    </a></li>
+                    <li>
+                        <a href="#"><p class="img"><img src="img16/flower.jpg" width = 100px alt=""></p>
+                        <h3> photoGallery 03</h3>
+                        <div class="inner">
+                            <p>- 참가자 :  홍길동</p>
+                            <p>- 작품규격 : 500 * 700</p>
+                            <p class="date">- 제출일자: 2020.08.20</p>
+                        </div>
+                    </a></li>
+                </ul>
+                </div>
+            </section>
+            
+            <footer>
+                <p>용동중학교 3학년 4반 김서연</p>
+            </footer>
+        </div>
+    </body>
+</html>
